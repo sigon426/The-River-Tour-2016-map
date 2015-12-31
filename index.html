@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>The River Tour 2016, BRUCE SPRINGTEEN</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.js'></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+    <style>
+        #map {
+            position: fixed;
+            width:50%;
+        }
+        #features {
+            width: 50%;
+            margin-left: 50%;
+            font-family: sans-serif;
+            overflow-y: scroll;
+            background-color: #fafafa;
+        }
+        section {
+            padding:  25px 50px;
+            line-height: 25px;
+            border-bottom: 1px solid #ddd;
+            opacity: 0.25;
+            font-size: 13px;
+        }
+        section.active {
+            opacity: 1;
+        }
+        section:last-child {
+            border-bottom: none;
+            margin-bottom: 200px;
+        }
+    </style>
+
+    <div id='map'></div>
+    <div id='features'>
+        <section id='Pittsburgh, PA' class='active'>
+            <h3>Jan 16, 2016</h3>
+            <p> Pittsburgh, PA. Consol Energy Center</p>
+        </section>
+        <section id='Chicago, IL'>
+            <h3>Jan 19, 2016</h3>
+            <p> Chicago, IL. United Center.</p>
+        </section>
+        <section id='New York, NY'>
+            <h3>Jan 24&27 , 2016</h3>
+            <p> New York, NY. Madison Square Garden</p>
+        </section>
+        <section id='Washington, DC'>
+            <h3>Jan 29, 2016</h3>
+            <p> Washington, DC. Verizon Center</p>
+        </section>
+        <section id='Newark, NJ'>
+            <h3>Jan 31, 2016</h3>
+            <p> Newark, NJ. Prudential Center</p>
+        </section>
+        <section id='Toronto, ON'>
+            <h3>Feb 2, 2016</h3>
+            <p>Toronto, ON. Air Canada Centre
+            </p>
+        </section>
+        <section id='Boston, MA'>
+            <h3>Feb 4, 2016</h3>
+            <p> Boston, MA. TD Garden
+            </p>
+        </section>
+        <section id='Albany, NY'>
+            <h3>Feb 8, 2016</h3>
+            <p> Albany, NY. Times Union Center.
+            </p>
+        </section>        
+        <section id='Hartford, CT'>
+            <h3>Feb 10, 2016</h3>
+            <p> Hartford, CT. XL Center
+      
+            </p>
+        </section>
+        <section id='Philadelphia, PA'>
+            <h3>Feb 12, 2016</h3>
+            <p> Philadelphia, PA.  Wells Fargo Center
+            </p>
+        </section>
+        <section id='Sunrise, FL'>
+            <h3>Feb 16, 2016</h3>
+            <p> Sunrise, FL. BB&T Center
+            </p>
+        </section> 
+        <section id='Atlanta, GA'>
+            <h3>Feb 18, 2016</h3>
+            <p>Atlanta, GA. Philips Arena
+            </p>
+        </section>   
+        <section id='Louisville, KY'>
+            <h3>Feb 21, 2016</h3>
+            <p>Louisville, KY. KFC Yum! Center
+            </p>
+        </section>
+        <section id='Cleveland, OH'>
+            <h3>Feb 23, 2016</h3>
+            <p> Cleveland, OH. Quicken Loans Arena
+            </p>
+        </section>
+        <section id='Buffalo, NY'>
+            <h3>Feb 25, 2016</h3>
+            <p> Buffalo, NY. First Niagara Center
+            </p>
+        </section>
+        <section id='Rochester, NY'>
+            <h3>Feb 27, 2016</h3>
+            <p>Rochester, NY. Blue Cross Arena
+            </p>
+        </section>
+        <section id='St Paul, MN'>
+            <h3>Feb 29, 2016</h3>
+            <p> St Paul, MN. Xcel Energy Center
+            </p>
+        </section>
+        <section id='Milwaukee, WI'>
+            <h3>Mar 3, 2016</h3>
+            <p> Milwaukee, WI. BMO Harris Bradley Center
+            </p>
+        </section> 
+        <section id='St Louis, MO'>
+            <h3>Mar 6, 2016</h3>
+            <p> St Louis, MO. Chaifetz Arena
+            </p>
+        </section> 
+        <section id='Phoenix, AZ'>
+            <h3>Mar 10, 2016</h3>
+            <p> Phoenix, AZ. Talking Stick Resort Arena
+            </p>
+        </section> 
+        <section id='Oakland, CA'>
+            <h3>Mar 13, 2016</h3>
+            <p> Oakland, CA. Oracle Arena
+            </p>
+        </section>                                       
+        <!-- last one -->
+        <section id='Los Angeles, CA'>
+            <h3>Mar 15&17, 2016</h3>
+            <p> Los Angeles, CA. Los Angeles Memorial Sports Arena</p>
+            <img src="lib/Bruce-Tour-Email-500x338.jpg" alt="Bruce-Tour">
+            <p>
+            Bruce Springsteen and the E Street Band launch The River Tour 2016, a nine-week US trek, on Jan. 16 in Pittsburgh. The announcement of the tour coincides with the release of “The Ties That Bind: The River Collection,” a comprehensive look at the era of the 1980 “The River” album that “Rolling Stone” calls “Springsteen’s best archival release yet.” The box set is now available at Amazon (4CD/3DVDs or 4CD/2Blu-ray) and iTunes.
+
+            <p>Each night of the tour will be mixed for release on <a href='http://live.brucespringsteen.net/'>Live.BruceSpringsteen.net</a>  as high-quality downloads and CDs. Recordings will be available within days of each performance.</p>
+
+            <p>The original The River Tour began Oct. 3, 1980, two weeks before the release of Springsteen’s fifth album, and continued through Sept. 4, 1981. With sets that regularly approached the four-hour range, the 140-date international tour firmly established a reputation for Bruce Springsteen and the E Street Band as marathon performers</p>
+
+            <small id="citation">
+                Adapted from <a href='http://brucespringsteen.net/category/live-dates'>brucespringsteen.net</a>
+            </small>
+        </section>
+    </div>
+    <script src="lib/concerts.js"></script>
+    <script src="lib/lodash.js"></script>
+    <script src="lib/main.js"></script>
+
+</body>
+</html>
+
